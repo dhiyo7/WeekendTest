@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.owl-stage {
+    right: 20px;
+}
+
+
+
+.owl-prev {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 40%;
+    left: -60px;
+    color: blue;
+    align-items: center;
+     background: white !important;
+    border-radius: 50%  !important;
+    margin-left: 20px;
+    display: block !important;
+    border:0px solid black;
+}
+
+.owl-next {
+    width: 30px;
+    height:30px;
+    position: absolute;
+    background: white !important;
+    border-radius: 50%  !important;
+
+    top: 40%;
+    right: -55px;
+    color: blue;
+    display: block !important;
+    border:0px solid black;
+}
+
+
